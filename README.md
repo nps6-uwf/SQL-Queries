@@ -1,2 +1,2 @@
 # SQL-Queries
-Some queries that I use as an analyst.
+Some queries that I created as an analyst.
