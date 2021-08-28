@@ -5,7 +5,7 @@
 -- (2) Column search on entire database, all tables.
 -- You can search for columns in a table or the entire database matching the criteria variable.
 
-USE TeeTurtleProdUser_Snapshot  -- Name of actual database replaced with dbname for anonymity.
+USE dbname_Snapshot  -- Name of actual database replaced with dbname for anonymity.
 
 DECLARE @tableSearch BIT = 1; -- 1 if you wish to perform a table based search, 0 if you want to search the entire database.
 DECLARE @columnCriteria VARCHAR(50) = 'v%'; -- For example, columns starting with v.
